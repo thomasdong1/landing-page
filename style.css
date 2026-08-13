@@ -42,6 +42,7 @@ a{
     margin: 0px 200px;
     height: 400px;
     display: flex;
+    gap: 40px;
 }
 
 .section1 .left {
@@ -94,4 +95,38 @@ a{
     line-height: 240px;
 }
 
+.section2 {
+    background-color: white;
+}
 
+.section2 .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section2 .container {
+    margin: 40px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section2 .info .text{
+    color: #1F2937;
+}
+
+.section2 .box{
+    outline: 2px solid #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
