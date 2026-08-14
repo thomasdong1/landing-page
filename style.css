@@ -197,3 +197,16 @@ a{
     font-size: 16px;
     align-self: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text{
+    color: white;
+    text-align: center;
+}
