@@ -108,7 +108,7 @@ a{
 }
 
 .section2 .container {
-    margin: 40px 200px;
+    margin: 40px 240px;
     display: flex;
     justify-content: center;
 }
@@ -122,6 +122,7 @@ a{
 
 .section2 .info .text{
     color: #1F2937;
+    font-size: 14px;
 }
 
 .section2 .box{
@@ -129,4 +130,23 @@ a{
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+
+.section3 {
+    background: #E5E7EB;
+    padding: 80px 200px;
+}
+
+.section3 .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section3 .text{
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+    text-align: right;
 }
